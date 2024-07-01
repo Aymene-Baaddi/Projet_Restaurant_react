@@ -1,0 +1,117 @@
+/* test.css */
+
+/* Style de la page entière */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.background-image {
+  background-image: url('restaurant.jpg');
+  background-size: cover;
+  background-position: center top;
+  width: 107%;
+  height: 100vh;
+  margin-top: -1.5%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Style du formulaire de création de table */
+.input-container {
+  
+  padding: 20px;
+  border-radius: 10px;
+  
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+ 
+}
+
+.input-container input {
+  width: 100%;
+  
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+  
+}
+
+.input-container button {
+  background-color: #525e7f;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  border: none;
+  width: 20%;
+  margin-top: 4%;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+/* Style des cartes de tables */
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  
+}
+.card-content{
+  height: 500%;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow:10px 10px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+ 
+}
+
+
+.card h6 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: rgb(46, 46, 46);
+}
+
+
+
+.card button {
+  background-color: #787474;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+  font-size: 18px;
+}
+
+.card button:hover {
+  background-color: #f60303;
+};

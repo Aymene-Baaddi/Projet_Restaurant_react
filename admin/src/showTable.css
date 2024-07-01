@@ -1,0 +1,90 @@
+.table-container {
+  
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.add-data-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 6%;
+ 
+}
+
+.recherche{
+  float: left;
+  width: 40%;
+}
+
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px;
+}
+
+.table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table th,
+.table td,
+.table img {
+  border-bottom: 1px solid #ccc;
+}
+
+.table img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+
+.actions .update {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.actions .delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.actions button:hover {
+  background-color: #333;
+}
+
+/* Ajoutez des styles supplémentaires au besoin */
