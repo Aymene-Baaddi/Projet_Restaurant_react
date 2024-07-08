@@ -24,7 +24,7 @@ const Login = ({ setIsAuthenticated }) => {
         
         localStorage.setItem('isAuthenticated', 'true');
   
-        // navigate('/test');
+         navigate('/test');
       }
     } catch (error) {
       setMessage('Authentication failed. Please check your email and password.');
